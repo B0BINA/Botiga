@@ -74,9 +74,24 @@ body {
     padding-top: 10px;
 }
 
+.footer {
+    background-color: #00000081;
+    text-align: center;
+}
+
+.castellano {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-top: 10px;
+}
 @media only screen and (max-width:600px) {
     .column123{
         padding: 2%;
         width: 50%;
+    }
+
+    .castellano {
+        font-size: 35px;
     }
 }
